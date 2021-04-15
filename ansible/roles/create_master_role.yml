@@ -1,0 +1,5 @@
+- name: Creating a master role
+  hosts: localhost
+  become: true
+  roles:
+    - master
